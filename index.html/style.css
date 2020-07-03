@@ -1,0 +1,60 @@
+#name{
+    font-size: 30px;
+    text-align: center;
+    color: black;
+    font-style: normal;
+    font-weight: bolder;
+}
+.menu-bar{
+    background-image: url(../pic.jpg);
+}
+.menu-list{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+.element-list{
+    padding: 10x;
+    margin: 5px;
+    border: 2px solid rgb(143, 186, 226);
+    font-size: 25px;
+}
+.element-list:hover{
+    color: greenyellow;
+    background: rgb(146, 179, 223);
+}
+#intro{
+    background-color: lavender;
+    font-size: 18px;
+    text-align: left;
+    background-position: left;
+}
+ul{
+    background-color: lavender;
+    font-size: 18px;
+}
+
+tr{
+    background-color: lavender;
+    font-size: 18px;
+}
+body{
+    background-image: url('../pic.jpg');
+    background-size: cover;
+}
+*{
+    margin: 6px;
+    padding: 6px;
+}
+h1{
+    font-size: 18px;
+    background-color: lavender;
+}
+h2{
+    font-size: 18px;
+    text-align: right;
+}
+h3{
+    font-size: 18px;
+    text-align: right;
+}
